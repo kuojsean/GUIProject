@@ -54,6 +54,12 @@ public class GUIPanel extends JPanel
 	 */
 	private void setupListeners()
 	{
-		
+		firstButton.addActionListener(new ActionListener() 
+		{
+			public void actionPerformed(ActionEvent click)
+			{
+				
+			}
+		});
 	}
 }
